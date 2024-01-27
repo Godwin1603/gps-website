@@ -6,6 +6,8 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    background-color:#030E4F;
+    color: #F49F1C;
 }
 .navbar{
    
@@ -13,8 +15,17 @@ body{
   
   box-shadow: 0px 1px 15px black;
   display: flex;
-  justify-content:space-between;
+  font-size: small;
     
+}
+.marketing{
+   
+    margin-left:65%;
+    justify-content: space-between;
+    
+}
+.marketing:hover{
+   color: black;
 }
 .container1{
     margin-top: 40px;
@@ -33,7 +44,7 @@ body{
 }
 .features{
     display: flex;
-    background-color:white;
+    background-color:#030E4F;
     width: 350px;
     height: 450px;
     flex-wrap: wrap;
@@ -51,7 +62,6 @@ h1{
     margin-top: 15px;
     text-shadow: 1px 1px 2px black;
 }
-
 .logo{
-    
+    color:#551fbd;
 }
